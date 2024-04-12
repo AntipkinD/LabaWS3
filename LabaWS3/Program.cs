@@ -33,7 +33,7 @@
                 new Student("Лисичников", "А.А.", "22ИТ35", 1, 2, 1, 2, 1),
                 new Student("Тупицин", "И.А.", "22ИТ35", 2, 1, 2, 1, 2),
                 new Student("Цомкалов", "И.О.", "22ИТ35", 2, 2, 2, 2, 2),
-                new Student("Искандер", "И.Ю.", "22ИТ35", 3, 5, 4, 5, 3),
+                new Student(),
                 new Student("Грацкий", "Ю.И.", "22ИТ35", 5, 4, 3, 2, 1),
                 new Student("Испанских", "Т.П.", "22ИТ35", 5, 4, 3, 4, 5),
             };
@@ -52,7 +52,7 @@
             }
             for (int i = 0; i <= 6; i++)
             {
-                Console.WriteLine($"{studs[i].Surname}, {studs[i].Initials}, {studs[i].GradeAverage(studs[i].Grades)}");
+                Console.WriteLine($"{studs[i].Surname}, {studs[i].Initials}, {studs[i].Numofgroup}, {studs[i].GradeAverage(studs[i].Grades)}");
             }
         }
     }
